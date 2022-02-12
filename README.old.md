@@ -1,0 +1,1 @@
+# maqe-template-styling

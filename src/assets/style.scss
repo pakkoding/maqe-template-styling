@@ -1,0 +1,44 @@
+.forum-container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10%;
+  padding-right:10%;
+  background: #EEEEEE;
+}
+
+#maqe-forum {
+  padding: 20px;
+  #header {
+    margin-top: 10px;
+  }
+  #forum-list {
+    .forum {
+      border-radius: 2px;
+      border-bottom: 2px solid #c4c4c6;
+      box-shadow: 0 0 3px 0 #dddddf;
+      .forum-header {
+        font-size: 0.85rem;
+        font-weight: 600;
+        border-bottom: 1px solid #ECECEC;
+        .avatar {
+          border-radius: 50%;
+        }
+        .title {
+          margin-left: 5px;
+          .name {
+            color: #F94B20;
+          }
+          .date {
+            color: #6C7A86;
+          }
+        }
+      }
+    }
+    .bg-white {
+      background-color: #FFFFFF;
+    }
+    .bg-light-blue {
+      background-color: #CBECFF;
+    }
+  }
+}
